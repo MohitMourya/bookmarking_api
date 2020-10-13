@@ -1,13 +1,15 @@
-# Foobar
+# Backend API for a Bookmarking application
 
-Foobar is a Python library for dealing with word pluralization.
+Developed on Node Express &amp; MongoDB
 
-## Installation
+## API Functionalities
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+### Bookmarking
+
+- Create a Bookmark
 
 ```bash
-pip install foobar
+bookmarking-api.herokuapp.com/api/bookmark/
 ```
 
 ## Usage
