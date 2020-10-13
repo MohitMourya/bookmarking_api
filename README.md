@@ -1,6 +1,6 @@
 # Backend API for a Bookmarking application
 
-Developed on Node Express &amp; MongoDB
+Developed on Node Express &amp; MongoDB [Front-End in Progress]
 
 ## API Functionalities
 
@@ -28,7 +28,7 @@ Developed on Node Express &amp; MongoDB
 
   - PUT request to `bookmarking-api.herokuapp.com/api/bookmark/add/:id` with id in params.
 
--Remove a Tag from a Certain Bookmark
+- Remove a Tag from a Certain Bookmark
 
   - PUT request to `bookmarking-api.herokuapp.com/api/bookmark/remove/:id` with id in params.
 
