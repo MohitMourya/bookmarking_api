@@ -26,11 +26,11 @@ Developed on Node Express &amp; MongoDB [Front-End in Progress]
 
 - Add a Tag to a Bookmark
 
-  - PUT request to `bookmarking-api.herokuapp.com/api/bookmark/add/:id` with id in params.
+  - PUT request to `bookmarking-api.herokuapp.com/api/bookmark/add/:id` with bookmark id in params and tag title in JSON body.
 
 - Remove a Tag from a Certain Bookmark
 
-  - PUT request to `bookmarking-api.herokuapp.com/api/bookmark/remove/:id` with id in params.
+  - PUT request to `bookmarking-api.herokuapp.com/api/bookmark/remove/:id` with bookmark id in params and tag title in JSON body.
 
 
 ### 3. Display
