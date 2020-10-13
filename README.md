@@ -4,7 +4,7 @@ Developed on Node Express &amp; MongoDB
 
 ## API Functionalities
 
-### 1.Bookmarking
+### 1. Bookmarking
 
 - Create a Bookmark
 
@@ -14,34 +14,34 @@ POST request to `bookmarking-api.herokuapp.com/api/bookmark/` with JSON bosy.
 
 DELETE request to `bookmarking-api.herokuapp.com/api/bookmark/:url` with url in params.
 
-### 2.Tag
+### 2. Tag
 
 - Create a tag
-.
-POST request to `bookmarking-api.herokuapp.com/api/tag/` with JSON body
+
+  POST request to `bookmarking-api.herokuapp.com/api/tag/` with JSON body
 
 - Delete a tag
 
-DELETE request to `bookmarking-api.herokuapp.com/api/tag/:title` with tag title in params.
+  DELETE request to `bookmarking-api.herokuapp.com/api/tag/:title` with tag title in params.
 
 - Add a Tag to a Bookmark
 
-PUT request to `bookmarking-api.herokuapp.com/api/bookmark/add/:id` with id in params.
+  PUT request to `bookmarking-api.herokuapp.com/api/bookmark/add/:id` with id in params.
 
 -Remove a Tag from a Certain Bookmark
 
-PUT request to `bookmarking-api.herokuapp.com/api/bookmark/remove/:id` with id in params.
+  PUT request to `bookmarking-api.herokuapp.com/api/bookmark/remove/:id` with id in params.
 
 
-### 3.Display
+### 3. Display
 
 - Retrieve all bookmarks
 
-GET request to `bookmarking-api.herokuapp.com/api/bookmark/`
+  GET request to `bookmarking-api.herokuapp.com/api/bookmark/`
 
 - Retrieve all tags
 
-GET request to `bookmarking-api.herokuapp.com/api/tag/`
+  GET request to `bookmarking-api.herokuapp.com/api/tag/`
 
 
 ## Contributing
