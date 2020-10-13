@@ -1,18 +1,29 @@
-# Backend API for a Bookmarking application
-Developed on Node Express &amp; MongoDB <br><br>
+# Foobar
 
-<h2>API Functionalities</h2><br>
-<h3>Bookmarking</h3>
-- Create a Bookmark <br>
-POST request to ```bookmarking``` to create a bookmark.
-<br>
-Delete a Bookmark <br>
-<h3>Tag</h3>
-Create a Tag <br><br>
-Delete a Tag <br><br>
-Add a Tag to a Bookmark <br><br>
-Remove a Tag from a Certain Bookmark <br>
-<h3>Display</h3>
-Retrieve all bookmarks <br><br>
-Retrieve all tags <br>
- 
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
