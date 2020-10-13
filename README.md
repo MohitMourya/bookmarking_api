@@ -8,7 +8,7 @@ Developed on Node Express &amp; MongoDB [Front-End in Progress]
 
 - Create a Bookmark
 
-  - POST request to `bookmarking-api.herokuapp.com/api/bookmark/` with JSON bosy.
+  - POST request to `bookmarking-api.herokuapp.com/api/bookmark/` with JSON body.
 
 - Delete a Bookmark
 
