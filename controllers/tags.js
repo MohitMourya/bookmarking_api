@@ -1,10 +1,10 @@
 const Tag = require('../models/tags');
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuid4 } = require('uuid');
 
 //Create tag
 exports.createTag = (req, res) => {
     const tag = new Tag({
-        id: uuidv4(),
+        id: uuid4(),
         title: req.body.title,
         time_created: Math.round(Date.now() / 1000),
         time_updated: Math.round(Date.now() / 1000)

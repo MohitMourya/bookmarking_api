@@ -2,7 +2,7 @@ const Bookmark = require('../models/bookmarks');
 const { v4: uuidv4 } = require('uuid');
 
 //Create bookmark
-exports.createBookmark = (req, res, next) => {
+exports.createBookmark = (req, res) => {
     const bookmark = new Bookmark({
         id: uuidv4(),
         url: req.body.url,
