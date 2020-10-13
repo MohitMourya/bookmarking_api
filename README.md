@@ -45,7 +45,7 @@ Developed on Node Express &amp; MongoDB [Front-End in Progress]
 
 ## Usage
 
-Run `npm start` to run the application
+Run `npm start` to run the server
 
 
 ## Contributing
