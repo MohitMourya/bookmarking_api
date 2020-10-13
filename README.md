@@ -43,6 +43,10 @@ Developed on Node Express &amp; MongoDB
 
   - GET request to `bookmarking-api.herokuapp.com/api/tag/`
 
+## Usage
+
+Run `npm start` to run the application
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
